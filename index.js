@@ -2,13 +2,13 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Aris187 ID).
 */
-const BotName = '👾AR15BOT👾'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/_sadboy.ig'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/+6285722553839'; // Nomor whatsapplu cok
+const BotName = 'DANDY'; // Nama Bot Whatsapp
+const instagramlu = ''; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/+18137996033'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // OFFICIAL GRUP LU 2
-const grupch3 = 'https://instagram.com/_sadboy.ig'; // OFFICIAL GRUP LU 3
+const grupch1 = 'https://chat.whatsapp.com/EXOnrjTcuum7KREfxJBjDF'; // OFFICIAL GRUP LU 1
+const grupch2 = ''; // OFFICIAL GRUP LU 2
+const grupch3 = ''; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] DANDY Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -72,7 +72,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_dandyv.ig`)
 })
 
 conn.on('message-new', async(m) =>
@@ -140,10 +140,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '$owner'){
-conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
+conn.sendMessage(id, 'Owner DANDY wa.me/+18137996033' ,MessageType.text);
 }
-else if (text == 'Aris'){
-conn.sendMessage(id, 'Aku BOT nya Aris187 ID' ,MessageType.text);
+else if (text == 'Dandy'){
+conn.sendMessage(id, 'Aku BOT nya Dandy171722 ID' ,MessageType.text);
 }
 else if (text == 'Ngentod'){
 conn.sendMessage(id, 'Pengin ngentod?' ,MessageType.text);
